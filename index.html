@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search and filter internships by title, company and domain.">
+  <title>Internship Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#cards">Skip to internships</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Internship Board</h1>
+      <p>Find an internship that fits your skills.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <form id="filters" class="filters" role="search" aria-label="Filter internships">
+      <div class="field">
+        <label for="search">Search by title, skill or location</label>
+        <input type="search" id="search" name="search" placeholder="e.g. SQL, Figma, Pune" autocomplete="off">
+      </div>
+
+      <div class="field">
+        <label for="domain">Domain</label>
+        <select id="domain" name="domain">
+          <option value="all">All domains</option>
+        </select>
+      </div>
+
+      <button type="button" id="reset" class="btn">Clear filters</button>
+    </form>
+
+    <p id="status" class="status" role="status" aria-live="polite">Loading internships…</p>
+
+    <section id="cards" class="grid" aria-label="Internship list" tabindex="-1"></section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p>All internships shown are fictional sample data.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
