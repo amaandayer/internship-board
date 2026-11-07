@@ -24,7 +24,7 @@ Then open http://localhost:8000
 ## Screenshots
 | Mobile | Tablet | Desktop |
 |---|---|---|
-| ![Mobile](screenshots/mobile.png) | ![Tablet](screenshots/tablet.png) | ![Desktop](screenshots/desktop.png) |
-
+| 
+| ![Mobile](screenshots/mobile.png.jpeg) | ![Tablet](screenshots/tablet.png.png) | ![Desktop](screenshots/desktop.png.png) |
 ## Replace the sample data
 The included `internships.json` is sample data. If your task gives you a seed file, replace it and adjust field names in `script.js` (`createCard`) if they differ.
