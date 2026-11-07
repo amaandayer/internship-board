@@ -2,7 +2,7 @@
 
 An accessible internship listing page built with plain HTML, CSS and JavaScript (no framework).
 
-**Live preview:** https://YOUR-USERNAME.github.io/internship-board/
+**Live preview:** https://amaandayer.github.io/internship-board/
 
 ## Features
 - Reusable internship card rendered from `internships.json`
